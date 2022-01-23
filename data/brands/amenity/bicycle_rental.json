@@ -1413,15 +1413,19 @@
       }
     },
     {
-      "displayName": "Edeka nextbike",
+      "displayName": "nextbike (Berlin)",
       "id": "edekanextbike-937152",
-      "locationSet": {"include": ["de"]},
-      "matchNames": ["deezer nextbike"],
+      "locationSet": {"include": ["de-be.geojson"]},
+      "matchNames": ["deezer nextbike", "edeka nextbike"],
       "tags": {
         "amenity": "bicycle_rental",
-        "brand": "Edeka nextbike",
+        "brand": "nextbike",
+        "brand:wikidata": "Q2351279",
+        "brand:wikipedia": "de:Nextbike",
         "network": "nextbike",
-        "operator": "nextbike"
+        "operator": "nextbike GmbH",
+        "operator:wikidata": "Q2351279",
+        "operator:wikipedia": "de:Nextbike"
       }
     },
     {
@@ -1482,12 +1486,12 @@
     {
       "displayName": "frelo",
       "id": "frelo-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-bw.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "frelo",
-        "network": "frelo",
-        "operator": "Nextbike GmbH",
+        "network": "nextbike",
+        "operator": "nextbike GmbH",
         "operator:wikidata": "Q2351279",
         "operator:wikipedia": "de:Nextbike"
       }
@@ -1932,7 +1936,7 @@
     {
       "displayName": "Konrad",
       "id": "konrad-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-bw.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "Konrad",
@@ -1954,14 +1958,40 @@
       }
     },
     {
+      "displayName": "KVB-Rad (Köln)",
+      "locationSet": {"include": [[6.95,50.94,8]]},
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "KVB-Rad",
+        "brand:wikidata": "Q89411348",
+        "network": "nextbike",
+        "operator": "nextbike GmbH",
+        "operator:wikidata": "Q2351279",
+        "operator:wikipedia": "de:Nextbike"
+      }
+    },
+    {
+      "displayName": "wupsiRad (Leverkusen)",
+      "locationSet": {"include": [[7.01,51.07,7]]},
+      "matchNames": ["wupsirad leverkusen"],
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "wupsiRad",
+        "network": "nextbike",
+        "operator": "nextbike GmbH",
+        "operator:wikidata": "Q2351279",
+        "operator:wikipedia": "de:Nextbike"
+      }
+    },
+    {
       "displayName": "KVV.nextbike",
       "id": "kvvnextbike-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-bw.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "KVV.nextbike",
-        "network": "KVV.nextbike",
-        "operator": "Nextbike GmbH",
+        "network": "nextbike",
+        "operator": "nextbike GmbH",
         "operator:wikidata": "Q2351279",
         "operator:wikipedia": "de:Nextbike"
       }
@@ -2133,19 +2163,6 @@
       }
     },
     {
-      "displayName": "MeinRad",
-      "id": "meinrad-e87019",
-      "locationSet": {
-        "include": ["001"],
-        "exclude": ["cn"]
-      },
-      "tags": {
-        "amenity": "bicycle_rental",
-        "brand": "MeinRad",
-        "name": "MeinRad"
-      }
-    },
-    {
       "displayName": "Melbourne Bike Share",
       "id": "melbournebikeshare-f00e7e",
       "locationSet": {
@@ -2197,14 +2214,13 @@
     {
       "displayName": "metropolradruhr",
       "id": "metropolradruhr-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-nw.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "metropolradruhr",
         "brand:wikidata": "Q62104274",
-        "network": "metropolradruhr",
-        "network:wikidata": "Q62104274",
-        "operator": "Nextbike",
+        "network": "nextbike",
+        "operator": "nextbike GmbH",
         "operator:wikidata": "Q2351279",
         "operator:wikipedia": "de:Nextbike"
       }
@@ -2289,12 +2305,13 @@
     {
       "displayName": "MOBIbike",
       "id": "mobibike-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-sn.geojson"]},
       "matchNames": ["sz-bike"],
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "MOBIbike",
-        "operator": "Nextbike",
+        "network": "nextbike",
+        "operator": "nextbike GmbH",
         "operator:wikidata": "Q2351279",
         "operator:wikipedia": "de:Nextbike"
       }
@@ -2357,12 +2374,14 @@
     {
       "displayName": "MVG Rad",
       "id": "mvgrad-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-by.geojson"]},
       "matchNames": ["mvg"],
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "MVG Rad",
+        "brand:wikidata": "Q67874919",
         "network": "MVG Rad",
+        "network:wikidata": "Q67874919",
         "operator": "Münchner Verkehrsgesellschaft",
         "operator:wikidata": "Q456402",
         "operator:wikipedia": "de:Münchner Verkehrsgesellschaft"
@@ -2371,7 +2390,7 @@
     {
       "displayName": "MVGmeinRad",
       "id": "mvgmeinrad-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-rp.geojson", "de-he.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "MVGmeinRad",
@@ -2389,6 +2408,7 @@
       "displayName": "nextbike (Ukraine)",
       "id": "nextbike-a162ac",
       "locationSet": {"include": ["ua"]},
+      "matchNames": ["Nextbike Ukraine", "Nextbike Ukraine llc"],
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "nextbike",
@@ -2405,25 +2425,16 @@
       }
     },
     {
-      "displayName": "Nextbike (Ukraine)",
-      "id": "nextbikeukraine-a162ac",
-      "locationSet": {"include": ["ua"]},
-      "tags": {
-        "amenity": "bicycle_rental",
-        "brand": "Nextbike Ukraine",
-        "network": "Nextbike Ukraine",
-        "operator": "Nextbike Ukraine llc"
-      }
-    },
-    {
-      "displayName": "Nibelungen Bike",
+      "displayName": "Nibelungen-Bike",
       "id": "nibelungenbike-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-ni.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
-        "brand": "Nibelungen Bike",
-        "network": "Nibelungen Bike",
-        "operator": "Nextbike GmbH"
+        "brand": "Nibelungen-Bike",
+        "network": "nextbike",
+        "operator": "nextbike GmbH",
+        "operator:wikidata": "Q2351279",
+        "operator:wikipedia": "de:Nextbike"
       }
     },
     {
@@ -2602,12 +2613,12 @@
     {
       "displayName": "PotsdamRad",
       "id": "potsdamrad-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-bb.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "PotsdamRad",
-        "network": "PotsdamRad",
-        "operator": "Nextbike GmbH",
+        "network": "nextbike",
+        "operator": "nextbike GmbH",
         "operator:wikidata": "Q2351279",
         "operator:wikipedia": "de:Nextbike"
       }
@@ -2770,15 +2781,15 @@
     {
       "displayName": "RegioRad Stuttgart",
       "id": "regioradstuttgart-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-bw.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "RegioRad Stuttgart",
         "brand:wikidata": "Q57274085",
         "brand:wikipedia": "de:Regiorad Stuttgart",
-        "network": "RegioRad Stuttgart",
-        "network:wikidata": "Q57274085",
-        "network:wikipedia": "de:Regiorad Stuttgart",
+        "network": "Call a Bike",
+        "network:wikidata": "Q1060525",
+        "network:wikipedia": "de:Call a Bike",
         "operator": "Deutsche Bahn Connect",
         "operator:wikidata": "Q1152100",
         "operator:wikipedia": "de:Deutsche Bahn Connect"
@@ -2969,9 +2980,10 @@
       }
     },
     {
-      "displayName": "sigo E-Lastenrad Sharing",
+      "displayName": "sigo",
       "id": "sigo-937152",
       "locationSet": {"include": ["de"]},
+      "matchNames": ["sigo E-Lastenrad Sharing", "sigo E-Lastenrad Standort"],
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "sigo",
@@ -2979,16 +2991,6 @@
         "operator": "sigo GmbH",
         "operator:wikidata": "Q109659526",
         "operator:wikipedia": "de:Sigo"
-      }
-    },
-    {
-      "displayName": "sigo E-Lastenrad Standort",
-      "id": "sigoelastenradstandort-06d22c",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "bicycle_rental",
-        "brand": "sigo E-Lastenrad Standort",
-        "name": "sigo E-Lastenrad Standort"
       }
     },
     {
@@ -3058,12 +3060,14 @@
     {
       "displayName": "SprottenFlotte",
       "id": "sprottenflotte-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-sh.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "SprottenFlotte",
-        "network": "SprottenFlotte",
-        "operator": "Nextbike"
+        "network": "nextbike",
+        "operator": "nextbike GmbH",
+        "operator:wikidata": "Q2351279",
+        "operator:wikipedia": "de:Nextbike"
       }
     },
     {
@@ -3080,15 +3084,15 @@
     {
       "displayName": "StadtRAD Hamburg",
       "id": "stadtradhamburg-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-hh.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "StadtRAD Hamburg",
         "brand:wikidata": "Q2326366",
         "brand:wikipedia": "de:StadtRAD Hamburg",
-        "network": "StadtRAD Hamburg",
-        "network:wikidata": "Q2326366",
-        "network:wikipedia": "de:StadtRAD Hamburg",
+        "network": "Call a Bike",
+        "network:wikidata": "Q1060525",
+        "network:wikipedia": "de:Call a Bike",
         "operator": "Deutsche Bahn Connect",
         "operator:wikidata": "Q1152100",
         "operator:wikipedia": "de:Deutsche Bahn Connect"
@@ -3353,7 +3357,7 @@
     {
       "displayName": "TWS.Rad",
       "id": "twsrad-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-bw.geojson"]},
       "matchNames": ["tws"],
       "tags": {
         "amenity": "bicycle_rental",
@@ -3410,7 +3414,7 @@
     {
       "displayName": "Usedom-Rad",
       "id": "usedomrad-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-mv.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "Usedom-Rad",
@@ -3437,11 +3441,12 @@
     {
       "displayName": "VAG Rad",
       "id": "vagrad-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-by.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "VAG Rad",
         "brand:wikidata": "Q100455836",
+        "network": "nextbike",
         "operator": "Verkehrs-Aktiengesellschaft Nürnberg",
         "operator:wikidata": "Q1557682",
         "operator:wikipedia": "de:VAG Verkehrs-Aktiengesellschaft Nürnberg"
@@ -3693,7 +3698,7 @@
     {
       "displayName": "Velocity Aachen",
       "id": "velocityaachen-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-nw.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "Velocity Aachen",
@@ -3852,14 +3857,13 @@
     {
       "displayName": "VRNnextbike",
       "id": "vrnnextbike-937152",
-      "locationSet": {"include": ["de"]},
+      "locationSet": {"include": ["de-rp.geojson", "de-bw.geojson", "de-he.geojson"]},
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "VRNnextbike",
         "brand:wikidata": "Q72064021",
-        "network": "VRNnextbike",
-        "network:wikidata": "Q72064021",
-        "operator": "Nextbike",
+        "network": "nextbike",
+        "operator": "nextbike GmbH",
         "operator:wikidata": "Q2351279",
         "operator:wikipedia": "de:Nextbike"
       }

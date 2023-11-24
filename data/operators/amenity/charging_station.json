@@ -531,7 +531,7 @@
     {
       "displayName": "Blink",
       "id": "blink-994ed4",
-      "locationSet": {"include": ["us"]},
+      "locationSet": {"include": ["us","gb"]},
       "tags": {
         "amenity": "charging_station",
         "brand": "Blink",
@@ -1828,7 +1828,7 @@
     },
     {
       "displayName": "ESB (Schweiz)",
-      "id": "energieservicebielbienne-086737",
+      "id": "energieservicielbienne-086737",
       "locationSet": {"include": ["ch"]},
       "tags": {
         "amenity": "charging_station",
@@ -2115,7 +2115,7 @@
       "displayName": "EWE Go GmbH",
       "id": "ewegogmbh-1299a8",
       "locationSet": {"include": ["de"]},
-      "matchNames": ["ewe", "ewe vertrieb gmbh"],
+      "matchNames": ["ewe", "ewe vertri gmbh"],
       "tags": {
         "amenity": "charging_station",
         "operator": "EWE Go GmbH",
